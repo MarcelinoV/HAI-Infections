@@ -82,6 +82,7 @@ More of this is explored in the Jupyter Notebook, but overall, with the exceptio
 ![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/r_c_res.jpg "Routine Culturing Residual Plot")
 
 **Homoscedasticity**
+
 ![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/homo.jpg "Fitted vs Residuals Plot: Homoscedasticity")
 
 **Multicollinearity**
@@ -104,7 +105,7 @@ Our model, without further optmization, predicts the following:
 
 **Confidence and Prediction Intervals**
 
-![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/conf_pred_inf.jpg "Variance Inflation Factors")
+![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/conf_pred_int.jpg "Variance Inflation Factors")
 
 ## Optimization Ideas
 Since the model has an adjusted R-squared of .471, it is obvious that the model does need more optimazation to become more accurate and useful. I recommend the following:
