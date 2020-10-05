@@ -40,7 +40,7 @@ With Infection Risk as our Target Variable, I develop an understanding of the da
 - Further analyze variables with high correlations to target variable.
 
 **Descriptive Statistics**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Desc Stats.JPG "Descriptive Stats of Features")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Desc_Stats.JPG "Descriptive Stats of Features")
 
 **Correlations**
 ![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Heatmap.JPG "Heatmap of Pearson Correlations between Variables")
