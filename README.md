@@ -43,12 +43,12 @@ With Infection Risk as our Target Variable, I develop an understanding of the da
 ![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/Desc_Stats.jpg "Descriptive Stats of Features")
 
 **Correlations**
-![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/Heatmap.JPG "Heatmap of Pearson Correlations between Variables")
+![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/Heatmap.jpg "Heatmap of Pearson Correlations between Variables")
 
 Seeing that length of stay, routine culturing, routine chest x-ray, and available facilities & services have the highest correlation with infection risk, I then plotted their respective scatter plots against infection risk.
 
 **Sample Scatter Plots**
-![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/l_s_scatter.JPG "length of stay vs. infection risk")
+![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/l_s_scatter.PNG "length of stay vs. infection risk")
 ![alt text](https://github.com/MarcelinoV/HAI-Infections/blob/master/Images/af&s_scatter.JPG "available facilities & services vs. infection risk")
 
 ## Model Building
