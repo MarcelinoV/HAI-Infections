@@ -40,16 +40,16 @@ With Infection Risk as our Target Variable, I develop an understanding of the da
 - Further analyze variables with high correlations to target variable.
 
 **Descriptive Statistics**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Desc Stats.jpg "Descriptive Stats of Features")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Desc Stats.JPG "Descriptive Stats of Features")
 
 **Correlations**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Heatmap.jpg "Heatmap of Pearson Correlations between Variables")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Heatmap.JPG "Heatmap of Pearson Correlations between Variables")
 
 Seeing that length of stay, routine culturing, routine chest x-ray, and available facilities & services have the highest correlation with infection risk, I then plotted their respective scatter plots against infection risk.
 
 **Sample Scatter Plots**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/l_s_scatter.jpg "length of stay vs. infection risk")
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/af&s_scatter.jpg "available facilities & services vs. infection risk")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/l_s_scatter.JPG "length of stay vs. infection risk")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/af&s_scatter.JPG "available facilities & services vs. infection risk")
 
 ## Model Building
 To build a Linear Regression Model with the test data, I used these three feature selection methods:
@@ -60,7 +60,7 @@ To build a Linear Regression Model with the test data, I used these three featur
 For the most part, all three methods selected **"length of stay", "routine culturing", and "available facilities & services"** as the top three features.
 
 **Sample Feature Selection Output**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Stepwise.jpg "Output with selected features (First Line) and OLS Regression Results")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/Stepwise.JPG "Output with selected features (First Line) and OLS Regression Results")
 
 ## Model Analysis: Residual Analysis & Verifying Assumptions
 To ensure we can trust our model, I had to verify the following assumptions about Linear Models:
@@ -73,13 +73,13 @@ To ensure we can trust our model, I had to verify the following assumptions abou
 More of this is explored in the Jupyter Notebook, but overall, with the exception of No Multicollinearity (**there is multicollinearity**), all assumptions are satisfied.
 
 **Linearity & Independence**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/r_c_res.jpg "Routine Culturing Residual Plot")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/r_c_res.JPG "Routine Culturing Residual Plot")
 
 **Homoscedasticity**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/homo.jpg "Fitted vs Residuals Plot: Homoscedasticity")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/homo.JPG "Fitted vs Residuals Plot: Homoscedasticity")
 
 **Multicollinearity**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/vif.jpg "Variance Inflation Factors")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/vif.JPG "Variance Inflation Factors")
 - Note that there is Multicollinearity since length of stay and available facilities & services **have VIFs > 10**.
 
 ## Prediction Results
@@ -87,13 +87,13 @@ More of this is explored in the Jupyter Notebook, but overall, with the exceptio
 Our model, without further optmization, predicts the following:
 
 **Test Data**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/test.jpg "Variance Inflation Factors")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/test.JPG "Variance Inflation Factors")
 
 **Predictions of Test Data**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/predictions.jpg "Variance Inflation Factors")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/predictions.JPG "Variance Inflation Factors")
 
 **Confidence and Prediction Intervals**
-![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/conf_pred_inf.jpg "Variance Inflation Factors")
+![alt text](https://github.com/MarcelinoV/Twitter-Covid-NLP-KMeans/blob/master/Images/conf_pred_inf.JPG "Variance Inflation Factors")
 
 ## Optimization Ideas
 Since the model has an adjusted R-squared of .471, it is obvious that the model does need more optimazation to become more accurate and useful. I recommend the following:
