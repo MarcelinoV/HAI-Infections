@@ -7,7 +7,7 @@ Credits to **Vikashraj Luhaniwal from TowardDataScience.com** for his article on
 
 ## Code and Resources Used
 
-**Python Version**: 3.6
+**Python Version**: 3.6, 3.8
 
 **Packages**: pandas, numpy, matplotlib, seaborn, statsmodels
 
